@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-react-recommended-ts",
+  "version": "0.0.1",
+  "description": "typescript react recommended eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint --ext .ts,.tsx test"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "recommended",
+    "eslint",
+    "prettier",
+    "config"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "liu",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.6.0"
+  }
+}
