@@ -12,7 +12,7 @@
   ]
 ```
 
-typescript 中关闭的配置和一些额外配置
+eslint-config-react-recommended-ts 中关闭的配置和一些额外配置
 
 ```
   '@typescript-eslint/explicit-module-boundary-types': 0,
@@ -56,6 +56,7 @@ module.exports = {
 ## FAQ
 
 - 代码检查或者保存代码时格式化未生效
+  - 是否安装 `prettier` 
   - vs code 的 EsLint 插件版本 >= 2.2.0
   - 安装依赖配置完成之后，重启 vscode
   - 检查 EsLint 插件配置是否开启 `source.fixAll.eslint": true`

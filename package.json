@@ -1,8 +1,13 @@
 {
   "name": "eslint-config-react-recommended-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "typescript react recommended eslint config",
   "main": "index.js",
+  "homepage": "https://github.com/bingcoder/eslint-config-react-recommended-ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bingcoder/eslint-config-react-recommended-ts"
+  },
   "scripts": {
     "test": "eslint --ext .ts,.tsx test"
   },
@@ -18,7 +23,7 @@
     "index.js"
   ],
   "author": "liu",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0",
@@ -26,7 +31,6 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "prettier": "^2.6.0"
+    "eslint-plugin-react-hooks": "^4.3.0"
   }
 }
