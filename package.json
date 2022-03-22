@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-recommended-ts",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "typescript react recommended eslint config",
   "main": "index.js",
   "homepage": "https://github.com/bingcoder/eslint-config-react-recommended-ts",

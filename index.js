@@ -4,9 +4,7 @@ module.exports = {
     browser: true,
     node: true,
     es2021: true,
-    mocha: true,
     jest: true,
-    jasmine: true,
   },
   parserOptions: {
     ecmaFeatures: {
@@ -17,7 +15,7 @@ module.exports = {
   },
   settings: {
     react: {
-      version: '16.14.0',
+      version: 'detect',
     },
   },
   extends: [
